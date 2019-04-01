@@ -4,7 +4,7 @@
 # Using RHEL 7 base image and Apache Web server
 
 # Pull the rhel image from the local repository
-FROM registry.redhat.io/rhel7/rhel
+FROM registry.access.redhat.com/rhel7/rhel
 MAINTAINER connect-tech@redhat.com
 
 ### Required Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels#####
